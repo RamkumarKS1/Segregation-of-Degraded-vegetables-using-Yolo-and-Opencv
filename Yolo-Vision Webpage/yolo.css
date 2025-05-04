@@ -1,0 +1,198 @@
+/* styles.css */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Inter', sans-serif;
+    background-color: #f8f9fa;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 3rem;
+  }
+  
+  .card {
+    background: white;
+    padding: 2.5rem;
+    border-radius: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: auto;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  }
+  
+  button {
+    background-color: #111;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.8rem;
+    border-radius: 999px;
+    font-size: 1rem;
+    margin-top: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #333;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e7f0db;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #114b1c;
+    font-size: 2.5rem;
+    margin-top: 1.5rem;
+  }
+  
+  .home-btn {
+    margin: 1rem;
+    padding: 0.6rem 1.5rem;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin: 2rem;
+  }
+  
+  .card {
+    background-color: #c4e2b8;
+    padding: 1rem;
+    border-radius: 15px;
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .card img {
+    max-width: 100%;
+    border-radius: 10px;
+  }
+  
+  .card button {
+    margin-top: 1rem;
+    padding: 0.6rem 1rem;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  body {
+    background-color: #e7f0db;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    color: #114b1c;
+    margin-top: 1.5rem;
+  }
+  
+  .home-btn {
+    margin: 1rem;
+    padding: 0.6rem 1.5rem;
+    background-color: #4caf50;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .result-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3rem;
+    margin: 3rem;
+  }
+  
+  .result-card {
+    padding: 1rem 2rem;
+    border-radius: 15px;
+    width: 300px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  }
+  
+  .result-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .result-card img {
+    max-width: 100%;
+    border-radius: 8px;
+  }
+  
+  .result-card.fresh {
+    background-color: #d5f1d5;
+    color: #144d1e;
+  }
+  
+  .result-card.rotten {
+    background-color: #f5b9b9;
+    color: #531313;
+  }
+  
+  .download-btn {
+    display: inline-block;
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    border: none;
+    font-weight: bold;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+  }
+  
+  .download-btn.green {
+    background-color: #145f1e;
+  }
+  
+  .download-btn.red {
+    background-color: #801919;
+  }
+      
